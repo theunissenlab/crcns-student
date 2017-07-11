@@ -1,0 +1,31 @@
+name: crcns-python
+channels:
+  - conda-forge
+dependencies:
+  # Core scientific python
+  - python=3
+  - numpy
+  - matplotlib
+  - pandas
+  - pyqt
+  - scipy
+  - scikit-image
+  - scikit-learn
+  - librosa
+
+  # Jupyter Environment
+  - notebook
+  - ipython
+
+  - pip:
+      # Neuro stuff
+      - git+git://github.com/mne-tools/mne-python.git@master
+      - git+git://github.com/choldgraf/mne-spikes.git@master
+
+      # Utilities
+      - download
+      - nbgrader
+      - tqdm
+
+      # Auditory analysis
+      # - librosa
