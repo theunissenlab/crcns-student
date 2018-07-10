@@ -11,7 +11,7 @@ vpath = fullfile(rootDir, 'validation');
 addpath(vpath);
 ppath = fullfile(rootDir, 'preprocessing');
 addpath(ppath);
-dataDir = fullfile(rootDir, '..', 'data'); %contains stim/response pairs
+dataDir = fullfile(rootDir, '../../', 'data'); %contains stim/response pairs
 stimsDir = fullfile(dataDir, 'all_stims'); %contains the .wav files
 
 %% The next three sections allow you to load and visualize single unit data from
