@@ -11,4 +11,4 @@ url = 'https://www.dropbox.com/s/hkrfyj2poizx9br/data.zip?dl=1'
 
 # Download and unzip the data for the course
 path_download = op.join(op.dirname(op.abspath(__file__)), 'data')
-download(url, path_download, zipfile=True)
+download(url, path_download, kind='zip')
