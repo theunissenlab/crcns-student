@@ -19,7 +19,7 @@ dependencies:
 
   - pip:
       # Neuro stuff
-      - https+git://github.com/mne-tools/mne-python.git@master
+      - mne
       - https+git://github.com/choldgraf/mne-spikes.git@master
 
       # Utilities
