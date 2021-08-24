@@ -20,7 +20,7 @@ dependencies:
   - pip:
       # Neuro stuff
       - mne
-      - https+git://github.com/choldgraf/mne-spikes.git
+      - https+git://github.com/choldgraf/mne-spikes
 
       # Utilities
       - download
