@@ -19,8 +19,7 @@ dependencies:
 
   - pip:
       # Neuro stuff
-      - git+git://github.com/mne-tools/mne-python.git@master
-      - git+git://github.com/choldgraf/mne-spikes.git@master
+      - git+https://github.com/ftheunissen/mne-spikes.git@master
 
       # Utilities
       - download
@@ -28,5 +27,5 @@ dependencies:
       - tqdm
 
       # Auditory analysis
-      - soundsig
+      - git+https://github.com/theunissenlab/soundsig
       - librosa

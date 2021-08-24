@@ -6,9 +6,8 @@ import os.path as op
 # THE ROOT OF THE CLASS REPOSITORY.
 
 # Url to data for the class
-url = 'https://www.dropbox.com/s/hkrfyj2poizx9br/data.zip?dl=1'
-# XXX another URL for course presentation material?
+url = 'https://www.dropbox.com/s/m9riuepg5xfdyoi/data.zip?dl=0'
 
 # Download and unzip the data for the course
-path_download = op.join(op.dirname(op.abspath(__file__)), 'data')
-download(url, path_download, kind='zip')
+path_download = op.dirname(op.abspath(__file__))
+download(url, path_download, kind='zip', replace=True)
