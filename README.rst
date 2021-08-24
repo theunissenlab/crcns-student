@@ -14,7 +14,7 @@ To download the data you can type:
 
 python download_data.py
 
-or get it by url directly from dropbox: 'https://www.dropbox.com/s/hkrfyj2poizx9br/data.zip?dl=1'
+or get it by url directly from dropbox: 'https://www.dropbox.com/s/m9riuepg5xfdyoi/data.zip?dl=0'
 
 
 Course binder:
