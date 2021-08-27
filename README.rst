@@ -6,7 +6,7 @@ You have three options for running the tutorial:
 
 2.  Writing python code and running on your laptop: download or fork python directory. (requires Python and some data analysis packages: see crcns-student/python/getting_started.ipynb)
 
-3.  Running python code on the cloud using Binder.  
+3.  Running python code on the cloud using Colab.  Currently the Colab is set to UC Berkeley access only.  Follow the links and request access if you don't have UC Berkeley credentials.
 
 Options 1 and 2 - require that you download the data directory as well.
 
@@ -17,5 +17,6 @@ python download_data.py
 or get it by url directly from dropbox: 'https://www.dropbox.com/s/m9riuepg5xfdyoi/data.zip?dl=0'
 
 
-Course binder:
-http://beta.mybinder.org/v2/gh/theunissenlab/crcns-student/master?filepath=python/getting_started.ipynb
+Colab links:
+Tutorial # 1 Direct Fit https://colab.research.google.com/drive/1HWx3kWMAM2kLZ8Sf9KSr_p07LqanOvwX?usp=sharing
+
