@@ -1,0 +1,11 @@
+# choldgraff neuro utilities
+-e git+https://github.com/choldgraf/mne-spikes@master
+
+# other utilities
+download
+nbgrader
+tqdm
+
+# auditory analysis
+-e git+https://github.com/theunissenlab/soundsig
+librosa	
