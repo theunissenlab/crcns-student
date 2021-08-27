@@ -7,7 +7,7 @@ dependencies:
   - numpy
   - matplotlib
   - pandas
-  - pyqt
+  - pyqt5
   - scipy
   - scikit-image
   - scikit-learn
