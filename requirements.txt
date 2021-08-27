@@ -1,5 +1,5 @@
 # choldgraff neuro utilities
--e git+https://github.com/choldgraf/mne-spikes@master
+-e git+https://github.com/choldgraf/mne-spikes#egg=mne-spikes
 
 # other utilities
 download
